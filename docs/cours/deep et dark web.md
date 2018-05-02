@@ -3,6 +3,7 @@
 # Partie théorique:
 
 Le Web se compose principalement de trois parties différentes : le *dark Web*, le Web profond (*deep Web* en anglais) et le Web visible.
+INCOHENRENCE AVEC LE FAIT LA LIGNE 13
 
 **1- Qu'est-ce que le Web visible ?**
 * Lorsque vous tapez une recherche sur un moteur de recherche classique (Google, Yahoo, Lilo, Ecocia, ...), vous parcourez en fait ce l'on appelle le Web surfacique, ou Web visible. Le Web surfacique est la partie du Web qui est accessible en ligne et indexable par les robots d’indexation  de ces moteurs de recherche. Un moteur de recherche classique indexe environ 9 à 10% du Web entier. Ce sont donc ces 10% qui constituent le Web visible.
@@ -12,7 +13,7 @@ Le Web se compose principalement de trois parties différentes : le *dark Web*, 
 * Le dark Web est une partie de ce Web profond.
 
 
-**3- Le concept de *dark Net* **
+**3- Le concept de *dark Net*.**
 
 * Un darknet est un réseau superposé (ou "réseau overlay") qui utilise des protocoles spécifiques intégrant des fonctions d'anonymisation. Certains se limitent à l'échange de fichiers, d'autres permettent la construction d'un écosystème anonyme complet (Web, blog, mail, irc) comme Freenet.
 
@@ -41,25 +42,25 @@ La non-indexation de certains sites web peut être due :
 * au développement de pages web grâce à des balises HTML spéciales rendant difficile leur indexation ; 
 * à la génération automatique de certaines pages (pages dynamiques) suite à une requête bien précise de l’internaute ; 
 * au manque de liaison correcte (URL, Uniform Resource Locator) entre les pages web d’un même site; 
-* à l’utilisation du langage JavaScript  qui est incompris par les robots d’indexations, pour lier les pages web d’un même site entre elles.
+* à l’utilisation du langage JavaScript qui est incompris par les robots d’indexations, pour lier les pages web d’un même site entre elles.
 
 **6- L'anonymat:**
 Ce terme provient du grec ανώνυμος *anonymos* (« sans nom »). En informatique, il s'agit des techniques compliquant l'identification des machines qui ont reçu ou transmis de l'information sur la toile ; en droit il s'agit des procédures destinées à retrouver l'auteur d'une transaction Internet ; au niveau social il s'agit d'un mode de communication entre citoyens plus difficile à surveiller, ce qui relance des enjeux de société en matière de vie privée et informatique mais aussi de cybercrime. À ce jour, l'anonymat total sur l'Internet est et semble être impossible. On ne peut que rendre plus difficile l'identification d'un internaute.
-#### *VPN:*
+#### *VPN :* (cf [cours de sécurité](https://explorweb.github.io/cours2018/cours/securite.html))
 
 * Définition : 
 Un VPN (Virtual Private Network) permet de relier des machines entre elles, de façon confidentielle. Un tunnel de communication, ou chemin virtuel, permet alors d'installer un lien sécurisé et crypté.
 
 * Intérêt des VPN :
-Utiliser un VPN permet aux utilisateurs de garder leur identité cachée. En effet, un VPN permet de ne pas dévoiler son adresse IP ainsi que ses informations personnelles, telles que les mots de passe, sur le Deep Web. Notre adresse IP va être remplacée par une adresse IP étrangère délivrée par un serveur situé à l'étranger. Ainsi, lorque l'on surfe sur internet, seule cette adresse IP est visible.
+Utiliser un VPN permet aux utilisateurs de garder leur identité cachée. En effet, un VPN permet de ne pas dévoiler son adresse IP ainsi que ses informations personnelles, telles que les mots de passe, sur le Deep Web. Notre adresse IP va être remplacée par une adresse IP étrangère délivrée par un serveur situé à l'étranger. Ainsi, lorque l'on surfe sur internet, seule cette seconde adresse IP est visible.
 Un VPN peut également être utilisé d'un point de vue professionel car il permet de réaliser du travail à distance, en accédant à un réseau interne depuis une autre machine.
 
 * Principe de fonctionnement:
-Toutes les données que vont s'échanger les utilisateurs seront donc cryptées, à l'aide de différents protocoles(PPTP, L2TP, ...) et passeront par un tunnel sécurisé reliant leurs machines. Toutefois, l'utilisation d'un VPN ne permet pas d'être totalement anonyme sur le Web, les fournisseurs de VPN pouvant toujours avoir accès à nos données personnelles.
+Toutes les données que vont s'échanger les utilisateurs seront donc cryptées, à l'aide de différents protocoles (PPTP, L2TP, ...) et passeront par un tunnel sécurisé reliant leurs machines. Toutefois, l'utilisation d'un VPN ne permet pas d'être totalement anonyme sur le Web, les fournisseurs de VPN pouvant toujours avoir accès à nos données personnelles.
 
 
 
-#### *TOR (cf ci-dessous)*:
+#### *TOR :*
 
 
 * TOR : The Onion Rooter
@@ -103,7 +104,7 @@ A présent nous avons accès au réseau Tor. Nous allons tout d’abord nous ass
 
 ![](https://i.imgur.com/zpmy49V.png)
 
-Vous remarquez que cette fois-ci notre adresse IP est 188.138.1.229, si on essaie de me localiser via cette adresse, on va me localiser géographiquement dans un pays autre que celui où je me trouve réellement, et cette adresse IP change continuellement presque toute les secondes aussi longtemps que nous sommes dans le réseau Tor, ceci permet qu’un hacker par exemple ne nous localise ou suive notre activité sur internet, ainsi en demandant une fois de plus notre adresse IP au site www.adresseip.com au bout de quelque secondes, comme le montre la capture suivante : 
+Vous remarquez que cette fois-ci notre adresse IP est 188.138.1.229, si on essaie de me localiser via cette adresse, on va me localiser géographiquement dans un pays autre que celui où je me trouve réellement, et cette adresse IP change continuellement presque toute les secondes aussi longtemps que nous sommes dans le réseau Tor. Ceci permet par exemple qu’un hacker ne nous localise pas ou ne suive pas notre activité sur internet, ainsi en demandant une fois de plus notre adresse IP au site www.adresseip.com au bout de quelque secondes, comme le montre la capture suivante : 
 
 ![](https://i.imgur.com/QpOfpIp.png)
 
@@ -122,9 +123,9 @@ Et nous vérifions que notre anti virus est actif.
 
 A présent nous pouvons commencer notre exploration du web invisible.
 
-Dans le deep web pour naviguer en évitant au maximum les sites potentiellement dangereux il existe un site que nous qualifierons de « carte de navigation » ou « de petit annuaire du deep web »: le Hidden Wiki. Le Hidden Wiki est le « wikipédia » du deep web, il recense quelques liens pour accéder aux sites cachés du web. Le Hidden Wiki est un site très essentiel lorsque l’on souhaite explorer le deep web, il permet d’éviter que l’on accède malencontreusement aux sites indésirables.
+Dans le deep web pour naviguer en évitant au maximum les sites potentiellement dangereux il existe un site que nous qualifierons de « carte de navigation » ou « de petit annuaire du deep web »: le Hidden Wiki. Le Hidden Wiki est le « wikipédia » du deep web, il recense quelques liens pour accéder aux sites cachés du web. Le Hidden Wiki est un site essentiel lorsque l’on souhaite explorer le deep web, il permet d’éviter que l’on accède malencontreusement aux sites indésirables.
 
-Pour aller sur le Hidden Wiki, nous n’allons pas entrer au niveau de la barre des titres  de notre navigateur une URL de la forme http://www.nomdusite.domaine comme d’habitude dans un navigateur classique, mais plutôt une URL constitué d’une combinaison de lettres et de chiffres (n’ayant pas forcément une signification littérale) suivi de ".onion" ; puisque le réseau Tor affecte lui-même une adresse aux serveurs fournissant des services de site web caché, donc le nom de l’URL ne donne la plupart du temps aucune indication sur le site que l’on visite. 
+Pour aller sur le Hidden Wiki, nous n’allons pas entrer au niveau de la barre des titres de notre navigateur une URL de la forme http://www.nomdusite.domaine comme d’habitude dans un navigateur classique, mais plutôt une URL constitué d’une combinaison de lettres et de chiffres (n’ayant pas forcément une signification littérale) suivi de ".onion" ; puisque le réseau Tor affecte lui-même une adresse aux serveurs fournissant des services de site web caché, donc le nom de l’URL ne donne la plupart du temps aucune indication sur le site que l’on visite. 
 
 Pour se rendre sur le Hidden Wiki, nous entrons l’adresse « zqktlwi4fecvo6ri.onion » dans la barre des titres de notre navigateur Tor Browser et nous appuyons sur la touche « Entrée » de notre clavier. Le navigateur nous ouvre une page où est présent  un lien (comme le montre la capture ci-dessous), qui nous permettra d’accéder au Hidden Wiki :
 
@@ -160,6 +161,7 @@ A présent vous savez comment explorer le deep web, je tiens à vous préciser u
 
 ### Glossaire:
 * **Réseau superposé** : c'est un réseau informatique bâti sur un autre réseau. Les nœuds du réseau superposé sont interconnectés par des liens logiques du réseau sous-jacent.
+
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Network_Overlay.svg/330px-Network_Overlay.svg.png)
 > un exemple de réseau superposé
 * **Freenet** : c'est un réseau informatique anonyme et distribué construit sur Internet. Il vise à permettre une liberté d'expression et d'information totale fondée sur la sécurité de l'anonymat, et permet donc à chacun de lire comme de publier du contenu. Il offre la plupart des services actuels d'Internet 
