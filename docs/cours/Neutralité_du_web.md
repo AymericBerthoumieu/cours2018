@@ -10,7 +10,7 @@ La neutralité du web est un principe. Elle garantit aux internautes un accès �
 Quand on regarde une vidéo ou des nouvelles sur Youtube ou Facebook, on a besoin d'[un fournissuer d'accès à Internet](https://fr.wikipedia.org/wiki/Fournisseur_d%27accès_à_Internet) ([ISP Internet service provider](https://en.wikipedia.org/wiki/Internet_service_provider) en anglais) qui nous permet de se connecter à ce contenu. L'idée de la neutralité est de traiter tous les trafics du web d'égale à égale. 
 
 Il interdit à un fournisseur d’accès de permettre un accès plus rapide à certains services qu’à d’autres càd pouvoir glisser certaines données dans des «voies rapides» tout en bloquant ou ralentissant d'autres, ou encore de filtrer certains contenus ou services.
-(http://www.lemonde.fr/pixels/article/2017/11/22/qu-est-ce-que-la-neutralite-du-net_5218670_4408996.html)
+([Le monde](http://www.lemonde.fr/pixels/article/2017/11/22/qu-est-ce-que-la-neutralite-du-net_5218670_4408996.html))
 
 Ces entreprises ne devraient pas être en mesure de vous empêcher d'accéder à un service comme Skype ou de ralentir [Netflix](https://www.bloomberg.com/news/articles/2017-12-14/netflix-is-less-noisy-defender-of-net-neutrality-as-vote-arrives) ou Hulu, afin de vous encourager à conserver votre bouquet de câbles ou à acheter un service de streaming vidéo différent.
 
@@ -53,7 +53,7 @@ Déployer des infrastructures, et en particulier la fibre, coûte cher. Et selon
 Source: [Julien Boyer: Six raisons d’être contre la Neutralité du Net](http://julienboyer.net/ecrivain/six-raisons-detre-contre-la-neutralite-du-net/)
 
 
-**5. Exemple: Google et la neutralité des recherches**
+**5. Exemple: Google et la neutralité des recherches** /* EST CE VRAIMENT UN EXEMPLE OU UN AUTRE POINT ? */
 La question qui se pose: 
 **Comment sont affichées les résultats de Google** ?
 
@@ -66,6 +66,8 @@ La question qui se pose:
 Ces techniques cherchent à **améliorer la compréhension par les robots d'indexation de la thématique et du contenu** d'une ou de l'ensemble des pages d'un site web et à **augmenter le trafic naturel du site**.
 
 L'objectif est d'**améliorer le positionnement d'une page web dans les pages de résultats de recherche sur des mots-clés ciblés** (selon les thèmes principaux du site). On considère que le positionnement d'un site est bon lorsqu'il est positionné (classé) dans la première page des résultats de recherche, dans l'une des dix premières réponses naturelles d'une recherche sur des mots-clés correspondant précisément à sa thématique.
+
+Voir aussi le chapitre sur le référencement dans le cours sur [Les Bases du Web](https://explorweb.github.io/cours2018/cours/Bases_Web.html#r%C3%A9f%C3%A9rencement).
 
 
 **5.1.2. Limites du SEO**
@@ -83,7 +85,7 @@ Objectifs de cette démarche ==> améliorer la qualité du trafic et la populari
 * Les [EMD](https://www.definitions-marketing.com/definition/exact-match-domain/) (Exact Match Domain) alignant une longue suite de mots clés
 * Spammer les commentaires et forums de liens ([SpamCo](https://www.definitions-seo.com/definition-de-spamco/))
 
-Source: https://www.journaldunet.com/solutions/seo-referencement/1124916-20-techniques-de-black-hat-seo/1124920-cloaking
+Source: [Journal du Net](https://www.journaldunet.com/solutions/seo-referencement/1124916-20-techniques-de-black-hat-seo/1124920-cloaking)
 
 
 **5.2. Algorithme du Page Rank**
@@ -91,12 +93,17 @@ Source: https://www.journaldunet.com/solutions/seo-referencement/1124916-20-tech
 Google part du principe qu’un site web qui est recommandé par beaucoup de monde est sans doute plus intéressant qu’un site web dont personne n’en parle, c'est le [PageRank](https://fr.wikipedia.org/wiki/PageRank).
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/PageRank-hi-res.png/800px-PageRank-hi-res.png)
-*source de photo : https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/PageRank-hi-res.png/800px-PageRank-hi-res.png*
+
+*source de photo : [Wikipmedia](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/PageRank-hi-res.png/800px-PageRank-hi-res.png)*
+
 **5.2.1. [Définition du PageRank](https://fr.wikipedia.org/wiki/PageRank)**
-C'estl'algorithme d'analyse des liens concourant au système de classement des pages Web utilisé par le moteur de recherche Google. Il mesure quantitativement la popularité d'une page web. Ce n'est qu'un indicateur parmi d'autres qui permet de classer les pages du Web dans les résultats de recherche de Google.
+
+C'est l'algorithme d'analyse des liens concourant au système de classement des pages Web utilisé par le moteur de recherche Google. Il mesure quantitativement la popularité d'une page web. Ce n'est qu'un indicateur parmi d'autres qui permet de classer les pages du Web dans les résultats de recherche de Google.
+
 **5.2.2. Fonctionnement simplifié**
 
 ![](https://i.imgur.com/bjQLoVS.png)
+
 * Calculer le score d'une page avec pondération :
 Représenter la pertinence par un nombre ou un score positif avec la convention que plus le score est grand plus la page est importante.
 Si m pages votes pour la page 1 
