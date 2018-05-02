@@ -10,7 +10,7 @@
 > 
  ![](http://www.pierre-giraud.com/html-css/cours-complet/imgs/retour-ligne-espace-html.png)
 > 
-> La première balise de la paire de balises est la balise ouvrante *<nom>*, et l'autre est la balise fermante *</nom>*. Les informations au milieu de la paire de balises sont les éléments qui sont affichés sur le site web. Les éléments peuvent être un texte, une image, une vidéo, un lien, etc. 
+> La première balise de la paire de balises est la balise ouvrante, et l'autre est la balise fermante. Les informations au milieu de la paire de balises sont les éléments qui sont affichés sur le site web. Les éléments peuvent être un texte, une image, une vidéo, un lien, etc. 
 
 * Le HTML possède de nombreux contrôles qui sont notamment utilisés pour la saisie de données dans des formulaires.
 > Les contrôles sont les zones à remplir sur un site web, et un ou plusieurs zones de contrôles définissent un formulaire. Après remplir les zones, un formulaire sera généré.
@@ -34,7 +34,7 @@ Dans ce chapitre, nous allons voir la théorie sur le  CSS:
      * vous permet de sélectionner la police utilisée sur votre site.
      * c'est lui encore qui permet de définir la taille du texte, les bordures, le fond etc.
      * Et aussi, c'est lui qui permet de faire la mise en page de votre site.
-     * Exemple  d'une page web écrit en HTML(sans css) et la même page web écrit en HMTL+CSS
+     * Exemple  d'une page web écrit en HTML (sans css) et la même page web écrit en HMTL+CSS
       
      ![](https://user.oc-static.com/files/339001_340000/339428.png)
      
@@ -42,11 +42,11 @@ Dans ce chapitre, nous allons voir la théorie sur le  CSS:
    * Où est ce qu'on écrit du code css?
      Vous avez le choix car on peut écrire du code en langage CSS à trois endroits différents :
 
-      * dans un fichier.css(méthode la plus recommandée) car cela nous évite de mélanger les codes css et html dans tout un même fichier ;
+      * dans un fichier.css (méthode la plus recommandée) car cela nous évite de mélanger les codes css et html dans tout un même fichier ;
       * dans l'en-tête<head>du fichier HTML ;
 
       * directement dans les balises du fichier HTML via un attribut 'style'(méthode la moins recommandée);
-* vous noterez le contenu de la ligne 5,<link rel="stylesheet" href="style.css" />: c'est elle qui indique que ce fichier HTML est associé à un fichier appelé style.css qui est chargé de la mise en forme.
+* vous noterez le contenu de la ligne 5, < link rel="stylesheet" href="style.css" /> : c'est elle qui indique que ce fichier HTML est associé à un fichier appelé style.css qui est chargé de la mise en forme.
       ![](https://i.imgur.com/gqPeQzL.png)
 
 * Il faut noter que les navigateurs ne connaissent pas toutes les propriétés de CSS qui existent. Plus le navigateur est vieux, moins il connaît de fonctionnalités CSS qui sont mis à jour.
@@ -57,7 +57,7 @@ Dans ce chapitre, nous allons voir la théorie sur le  CSS:
      * Enregistrez le fichier que vous venez de créer  et donner lui un nom qui se termine par .html , comme par exemple page_web.html.
      * Maintenant, créez un nouveau fichier vide dans votre éditeur de texte et copiez-y ce bout de code CSS
         * la balise p signifie paragraphe en html 
-      * ![](https://i.imgur.com/eAPaE81.png)
+      ![](https://i.imgur.com/eAPaE81.png)
       * Enregistrez le fichier que vous avez crée précédemment et donner lui un nom qui se termine par .css , comme style.css. Placez ce fichier.css dans le même dossier que votre fichier.html comme dans l'image ci-dessous.
       ![](https://i.imgur.com/rJPdtq6.png)
        * Ouvrez maintenant votre fichier page_web.html dans votre navigateur pour le tester, comme vous le faites d'habitude. Regardez,vos paragraphes sont écrits en bleu, comme dans la figure suivante !
@@ -97,8 +97,7 @@ Dans ce chapitre, nous allons voir la théorie sur le  CSS:
 * Pour afficher ensuite le résultat, il faut accéder depuis votre navigateur au dossier dans lequel a été stocké le fichier php. Il suffit pour cela de renseigner l'adresse localhost (ou localhost:8888 selon votre système) directement dans votre navigateur. 
 
 * localhost est le nom attribué à l'adresse IPv6::1 ainsi qu'à la plage IPv4 127.0.0.0/8. Pour en savoir plus, cliquez [ici](https://fr.wikipedia.org/wiki/Localhost).
-- Documentation Php : Liste des fonctions et méthodes
-http://php.net/manual/fr/indexes.functions.php
+- Documentation Php : [Liste des fonctions et méthodes](http://php.net/manual/fr/indexes.functions.php)
 ## Javascript
 **- Qu'est ce que c'est ?**
 * Le Javascript est un langage inventé en 1995 par Brendan Eich (ancien de Nestcape). C'est un langage de programmation du Web conçu pour rendre interactifs et dynamiques les sites Web, très simplistes auparavant. 
@@ -113,8 +112,8 @@ http://php.net/manual/fr/indexes.functions.php
 * La syntaxe du Javascript n'est pas très complexe. Il s'agit d'une suite d'instructions séparés par un point-virgule ou un retour à la ligne.
 ![](https://i.imgur.com/Xe7kuSd.png)
 
-* Les codes JavaScript sont insérés au moyen de la balise <script> </script>, et ce, dans le corps même du code HTML. Ils peuvent, par ailleurs, être écrits dans des fichiers externes (d'extension .js) et appelés ensuite par l'attribut src de l'élément <script>.
-*ex* : <script src="VotreScript.js"></script>
+* Les codes JavaScript sont insérés au moyen de la balise <script> </script>, et ce, dans le corps même du code HTML. Ils peuvent, par ailleurs, être écrits dans des fichiers externes (d'extension .js) et appelés ensuite par l'attribut src de l'élément < <script> />.
+*ex* : < <script src="VotreScript.js"></script> />
 
 **- Instructions Javascript basiques**
 * [ Très bonne docu Javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference).
@@ -123,25 +122,28 @@ http://php.net/manual/fr/indexes.functions.php
 ## Référencement
 
 
-Toute entreprise moderne, qui se respecte se veut etre visible sur la toile. C'est ainsi qu'on assiste à la prolifération des sites web au cours des dernières années et de divers métiers associés tels que le webDesign pour attirer les visiteurs. Dans une optique de générer toujours plus de trafic sur leurs sites web favoris, les webmasters se sont penchés sur une techniques qui permettra non seulement à un internaute de visiter un site donné en passant mais que celui-ci y revient très souvent voire s'y abonné: c'est la naissance du referencement dont l'objet capital est de rendre un site web donnée le plus visible possible sur Internet.
+Toute entreprise moderne, qui se respecte se veut etre visible sur la toile. C'est ainsi qu'on assiste à la prolifération des sites web au cours des dernières années et de divers métiers associés tels que le webDesign pour attirer les visiteurs. Dans une optique de générer toujours plus de trafic sur leurs sites web favoris, les webmasters se sont penchés sur une techniques qui permettra non seulement à un internaute de visiter un site donné en passant mais que celui-ci y revient très souvent voire s'y abonné : c'est la naissance du référencement dont l'objet capital est de rendre un site web donnée le plus visible possible sur Internet.
 
 **Référencement VS Positionnement**
 
-Qu'est-ce-que le referencement ?
+Qu'est-ce-que le référencement ?
 
-Le referencement désigne l'action de conférer un index à un site ou une plateforme afin de l'inscrire dans la base de donnée d'un moteur de recherche tel que google. 
+Le référencement désigne l'action de conférer un index à un site ou une plateforme afin de l'inscrire dans la base de donnée d'un moteur de recherche tel que google. 
 Mais l'on ne compte pas seulement être présents, mais aussi avoir une bonne place dans l'ordre de ces résultats pour que le site attire un maximum de visiteurs.
 
-Ainsi le vrai terme pour désigner ce dont on vous parle ici est le terme 'Positionnement'. Mais pourquoi referencement ? Simplement parce-qu-il s'est vite imposé par abus et est devenu générique.
+Ainsi le vrai terme pour désigner ce dont on vous parle ici est le terme 'Positionnement'. Mais pourquoi référencement ? Simplement parce-qu-il s'est vite imposé par abus et est devenu générique.
 
 
 **Les techniques de référencement**
 
  Pour mieux référencier un site web il y a en gros deux grandes pistes qui sont le « white Hat » ou le « Black Hat ».
 La premiére chose qui vient à l’esprit pour mieux positionner une page est de comprendre le fonctionnement d’un moteur de recherche et d’essayer de tromper les robots d’indexation en utilisant tous les moyens disponibles, quitte à courir le risque de voir son site retiré de l'index de Google ou d'un autre moteur de recherche. C'est le "Black hat".
-Mais le probléme est que  ces algorithmes de classement sont constamment améliorés et changent tout le temps pour lutter contre ces sites web  qui cherchent à flouer les robots des moteurs pour faire remonter le site dans les résultats.
+
+Mais le probléme est que ces algorithmes de classement sont constamment améliorés et changent tout le temps pour lutter contre ces sites web  qui cherchent à flouer les robots des moteurs pour faire remonter le site dans les résultats.
+
 Donc ça sera beaucoup mieux de choisir la deuxième piste de « White Hat » et de concevoir un site agréable et pertinent pour l'utilisateur plutôt que de chercher à créer un site pour un robot d'indexation
-Alors quelles sont les techniques à faire pour optmiser votre site?
+
+Alors quelles sont les techniques à faire pour optmiser votre site ?
 Il y a différents techniques de référencement naturels :
    - il y a l’aspect externe ou ce qu’on appelle le Link Building càd d’avoir le maximum des liens qui pointent vers votre site. 
 En fait Les liens de qualité de sites et blogs externes aident les moteurs de recherche à trouver votre site à comprendre la thématique de votre site et de vos pages. Plus vous obtiendrez de liens provenant de sites internet de qualité en relation avec votre thématique, mieux votre site se positionnera.
@@ -155,18 +157,15 @@ En résumé le contenu doit etre :
         * les descriptions de vos pages (incorporer des mots clés dans la description des pages)
        * vos images (Utilisez vos mots-clés pour nommer les images que vous utilisez et également dans leurs balises < alt >)
        * et bien-sûr le contenu de vos pages.
-     - Contenu mise à jour réguliérement vue que l’objectif des moteurs de recherche est de livrer une information de qualité récente et pertinente.
+     - Contenu mis à jour réguliérement vue que l’objectif des moteurs de recherche est de livrer une information de qualité récente et pertinente.
      - Créer un espace interactif pour vos internautes.
 
 ## Les sources:
--les différents techniques de référencement naturels: (https://www.youtube.com/watch?v=XdT9Gys_Ou4)
--les technique d'optimisation du contenu d'un site:
-(http://larecetteduweb.fr/referencement-web/top-10-des-techniques-referencement-naturel/)
--Débuter en php : http://www.pierre-giraud.com/php-mysql/cours-complet/php-demarrer.php
--Fonctionnement d'un site internet écrit en php : https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/fonctionnement-d-un-site-ecrit-en-php
--MDN web docs - Introduction au HTML (https://developer.mozilla.org/fr/Apprendre/HTML/Introduction%C3%A0HTML)
--Openclassrooms - Introduction au HTML (https://openclassrooms.com/courses/apprendre-asp-net-mvc/introduction-au-html)
--Openclassrooms - Premiers pas en JavaScript
-https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/premiers-pas-en-javascript
--Openclassrooms - Apprendre à coder avec le JavaScript
-https://openclassrooms.com/courses/apprenez-a-coder-avec-javascript
+- [les différents techniques de référencement naturels](https://www.youtube.com/watch?v=XdT9Gys_Ou4)
+- [les technique d'optimisation du contenu d'un site](http://larecetteduweb.fr/referencement-web/top-10-des-techniques-referencement-naturel/)
+- [Débuter en php](http://www.pierre-giraud.com/php-mysql/cours-complet/php-demarrer.php)
+- [Fonctionnement d'un site internet écrit en php](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/fonctionnement-d-un-site-ecrit-en-php)
+- [MDN web docs - Introduction au HTML](https://developer.mozilla.org/fr/Apprendre/HTML/Introduction%C3%A0HTML)
+- [Openclassrooms - Introduction au HTML](https://openclassrooms.com/courses/apprendre-asp-net-mvc/introduction-au-html)
+- [Openclassrooms - Premiers pas en JavaScript](https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/premiers-pas-en-javascript)
+- [Openclassrooms - Apprendre à coder avec le JavaScript](https://openclassrooms.com/courses/apprenez-a-coder-avec-javascript)
