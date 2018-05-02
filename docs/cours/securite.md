@@ -83,46 +83,47 @@ Au moment où le pirate peut utliser la session, il peut aussi injecter tout ce 
 #### Buffer overflow
 Avant le traitement de toute donnée, l'ordinateur doit le stocker dans une  memoire temporaire appelé"Tampon". La surexploitation du tampon en stockant les données de grande taille que celle du tampon ça la deborde. Ce debordement
  du tempon est la cause principale ce faille car il permet l'attaquant d'injecter les donnée et les instructions pour l'exploitation.Cette faille nécessite une bonne connaissance technique de fonctionnement d'ordinateur ainsi que de la programation.
- #### Vers(Worms)
-Les vers sont les programme marveillant qui se dupliquent et se propagent eux sur les réseaux meme  si leur but principal est se reproduire et de se duopliquer, Il surchargent l'ordinateur et le réseau sur le quel il se trouve et ils peuvent aussi entrainer de sérieux dysfonctionnement de l'ordinateur. [plus d'infos](http://www.creantivirus.com/dossiers/difference-vers-virus-trojans/).
+#### Vers(Worms)
+Les vers sont les programme marveillant qui se dupliquent et se propagent eux sur les réseaux meme  si leur but principal est se reproduire et de se dupliquer, Il surchargent l'ordinateur et le réseau sur le quel il se trouve et ils peuvent aussi entrainer de sérieux dysfonctionnement de l'ordinateur. [plus d'infos](http://www.creantivirus.com/dossiers/difference-vers-virus-trojans/).
 
 #### Les Virus
-les petit programme qui s'attache un programme complet, et le modifie. L'execution du programme complet provoque l'exécution du virus en même temps pour juste contaminer le systeme. [plus d'infos](http://www.creantivirus.com/dossiers/difference-vers-virus-trojans/) . Même s'il est à la base  un automate autoréplicatif marvaillant maintenant est additionné le code marveillant inventé pour se propager à autres ordinateurs en s'inserent sur les logiciels légitimes qui peuvent perturber le fonctionnement du système d'ordinateur.Tous les moyens d'échange de données numériques comme les réseaux informatiques, les cédérom,les clefs USB,les disques durs, etc les favorisent de se repandre. [plus d'infos](https://fr.wikipedia.org/wiki/Virus_informatique)
+Les petits programmes qui s'attachent à un programme complet, et le modifie. L'execution du programme complet provoque l'exécution du virus en même temps pour juste contaminer le systeme. [plus d'infos](http://www.creantivirus.com/dossiers/difference-vers-virus-trojans/) . Même s'il est à la base  un automate autoréplicatif marvaillant maintenant est additionné le code marveillant inventé pour se propager à autres ordinateurs en s'inserant sur les logiciels légitimes qui peuvent perturber le fonctionnement du système d'ordinateur. Tous les moyens d'échange de données numériques comme les réseaux informatiques, les cédérom, les clefs USB, les disques durs, etc favorisent leur propagation. [plus d'infos](https://fr.wikipedia.org/wiki/Virus_informatique)
 #### Autres Menaces et vulnérabilités 
-Il ya beaucoup ménaces et vulnerabilités du Web comme:Clickjacking,Denial of Service,Diretory Traversal,File Inclusion,Command Injection,etc
+Il ya beaucoup ménaces et vulnerabilités du Web comme : Clickjacking, Denial of Service, Diretory Traversal, File Inclusion, Command Injection, etc
 
 
 
-  ## V. Une solution de sécurité: le VPN (Virtual Private Injection)
+## V. Une solution de sécurité: le VPN (Virtual Private Injection)
   
-En naviguant sur le net, vous n'êtes à l'abri d'aucun piratage informatique ou de vols de données. en effet, l'on peut recuperer vos données après avoir accedé à vos identifiants. Afin de se prémunir de ces incidents, il est necessaire d'utiliser les VPN(Virtual Private Network)
-Les VPN sont des reseaux virtuels s'appuyant sur un autre reseau comme Internet. Il permet de faire transiter des infos entre les différents membres de ce VPN , le tout de manière sécurisée. une connexion VPN revient à se connecter en reseau en utilisant comme adresse de destination, les adresses IP locales de votre machine.
-utiliser les VPN comporte des avantages mais aussi des inconvenients.
+En naviguant sur le net, vous n'êtes à l'abri d'aucun piratage informatique ou de vols de données. En effet, on peut recuperer vos données après avoir accedé à vos identifiants. Afin de se prémunir de ces incidents, il est necessaire d'utiliser les VPN (Virtual Private Network).
+Les VPN sont des reseaux virtuels s'appuyant sur un autre reseau comme Internet. Il permet de faire transiter des infos entre les différents membres de ce VPN , le tout de manière sécurisée. Une connexion VPN revient à se connecter en reseau en utilisant comme adresse de destination, les adresses IP locales de votre machine.
+Utiliser les VPN comporte des avantages mais aussi des inconvenients.
 
-les avantages principaux:
--Protection optimale sur Internet
--Téléchargez des torrents sans risque	
--Naviguez librement en sécurité	–
--Contournez la censure géographique	–
--Streamez tout de partout (Netflix, Bein,…)	
+Les avantages principaux :
+- Protection optimale sur Internet
+- Téléchargez des torrents sans risque	
+- Naviguez librement en sécurité
+- Contournez la censure géographique
+- Streamez tout de partout (Netflix, Bein,…)	
 
-les inconvenients
--Peut ralentir votre connexion internet
--Il faut en prendre un payant
+Les inconvenients :
+- Peut ralentir votre connexion internet
+- Il faut en prendre un payant
 
-Pour configurer un VPN, il existe trois methodes à savoir le PPTP, l'Ipsec et le l'openVPN. ce sont ces trois VPN que vous pouvez installer sur des servers dédiés ou  des serveurs personnels.
+Pour configurer un VPN, il existe trois methodes à savoir le PPTP, l'Ipsec et le l'openVPN. Ce sont ces trois VPN que vous pouvez installer sur des servers dédiés ou des serveurs personnels.
 Voici ici quelques lignes de commandes pour les plus curieux qui veulents savoir comment configurer un VPN avec Ipsec. 
 
 ## situation: 
- nous avons un reseau composé de trois routeurs R1,R2 et R3.nous voulons installer un vpn entre les routeurs R1 et R3. ce TP a pour objectif de
-montrer quelle configuration faut-il faire sur chaque routeur pour configure le vpn. le logiciel utilisé s'appelle Cisco Packet tracer.
+Nous avons un reseau composé de trois routeurs R1, R2 et R3. Nous voulons installer un VPN entre les routeurs R1 et R3. Ce TP a pour objectif de montrer quelle configuration il faut mettre en place sur chaque routeur pour configure le VPN. Le logiciel utilisé s'appelle Cisco Packet tracer.
     
-Nous commencerons par configurer notre PC et notre serveur en leur attribuant la bonne configuration réseau. Nous attaquerons ensuite la configuration du routeur R1  
+Nous commencerons par configurer notre PC et notre serveur en leur attribuant la bonne configuration réseau. Nous attaquerons ensuite la configuration du routeur R1.
 On commence par le Hostname :
 ```
 Router#configure terminal
 Router(config)#hostname R1
+```
 Nous configurons ensuite les adresses IP des deux interfaces :
+```
 R1(config)#interface FastEthernet 0/1
 R1(config-if)#ip address 192.168.1.254 255.255.255.0
 R1(config-if)#no shutdown
@@ -133,7 +134,7 @@ R1(config-if)#no shutdown
 R1(config-if)#exit
 
 ```
-Nos interfaces sont maintenant configurées, il nous reste à configurer le routage. J'ai choisi de faire du routage RIP( vous pouvez faire du statique si vous voulez)
+Nos interfaces sont maintenant configurées, il nous reste à configurer le routage. J'ai choisi de faire du routage RIP (vous pouvez faire du statique si vous voulez)
 
 1.Router R1
 ```
@@ -143,8 +144,6 @@ R1(config-router)#no auto-summary
 R1(config-router)#network 192.168.1.0
 R1(config-router)#network 10.1.1.0
 R1(config-router)#exit
-
-
 ```
 La configuration de base de notre routeur R1 est terminée. Passons maintenant au routeur R2
 
@@ -340,9 +339,9 @@ R3(config-if)#crypto map nom_de_map
 
 ```
 # Sources
--Fonctionnement d'un serveur DNS, cours laboratoire d'informatique de Grenoble : http://lig-membres.imag.fr/sicard/crRES/cours%20DNS.pdf
--La securité du web:https://developer.mozilla.org/fr/docs/Learn/Server-side/First_steps/Website_security
--Les failles et les protection https://openclassrooms.com/courses/protegez-vous-efficacement-contre-les-failles-web/la-faille-xss-1
- -Failles de securité d'application web s https://web.developpez.com/tutoriels/web/failles-securite-application-web/
--Deep in injection Sql:https://www.vpnfaqs.com/deep-sql-injection/
--La faille CSRF, explications et contre-mesures https://www.leblogduhacker.fr/faille-csrf-explications-contre-mesures/
+- Fonctionnement d'un serveur DNS, [cours laboratoire d'informatique de Grenoble](http://lig-membres.imag.fr/sicard/crRES/cours%20DNS.pdf)
+- [La securité du web](https://developer.mozilla.org/fr/docs/Learn/Server-side/First_steps/Website_security)
+- [Les failles et les protection](https://openclassrooms.com/courses/protegez-vous-efficacement-contre-les-failles-web/la-faille-xss-1)
+- [Failles de securité d'application web](https://web.developpez.com/tutoriels/web/failles-securite-application-web/)
+- [Deep in injection Sql](https://www.vpnfaqs.com/deep-sql-injection/)
+- [La faille CSRF, explications et contre-mesures](https://www.leblogduhacker.fr/faille-csrf-explications-contre-mesures/)
